@@ -7,17 +7,22 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
     header { background-color: #4CAF50; color: white; padding: 20px 40px; text-align: center; }
+    header img.logo { width: 80px; height: auto; vertical-align: middle; margin-right: 15px; }
     nav { background-color: #388E3C; padding: 10px; text-align: center; }
     nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
     section { padding: 40px; max-width: 1000px; margin: auto; background: white; margin-bottom: 20px; border-radius: 10px; }
     h2 { color: #4CAF50; }
     footer { background: #333; color: white; text-align: center; padding: 20px; }
     .catalogo-img { width: 100%; max-width: 300px; border-radius: 10px; margin-top: 10px; }
+    .qr { text-align: center; margin-top: 20px; }
+    .video-section { text-align: center; margin-top: 30px; }
+    .video-section video { width: 100%; max-width: 600px; border-radius: 10px; margin-top: 10px; }
   </style>
 </head>
 <body>
 
   <header>
+    <img src="maceta.jpg" alt="Logo Green Life" class="logo">
     <h1>Green Life</h1>
     <p>Macetas inteligentes para el cuidado de tus plantas</p>
   </header>
@@ -28,6 +33,7 @@
     <a href="#plantas">Plantas</a>
     <a href="#climas">Climas</a>
     <a href="#equipo">Equipo</a>
+    <a href="#proceso">Cómo se hace</a>
     <a href="#contacto">Contacto</a>
   </nav>
 
@@ -40,16 +46,8 @@
     <h2>Catálogo de Macetas</h2>
     <ul>
       <li>
-        <strong>Maceta EcoSmart</strong> - autoriego, biodegradable, ideal para interiores.<br>
-        <img src="maceta.jpg" alt="Maceta EcoSmart" class="catalogo-img">
-      </li>
-      <li>
-        <strong>Maceta Minimal</strong> - diseño moderno, cerámica esmaltada, varios colores.<br>
-        <img src="maceta.jpg" alt="Maceta Minimal" class="catalogo-img">
-      </li>
-      <li>
-        <strong>Maceta Clásica</strong> - barro natural, perfecta para exteriores.<br>
-        <img src="maceta.jpg" alt="Maceta Clásica" class="catalogo-img">
+        <strong>Diseño Único Green Life</strong> - autoriego, biodegradable, ideal para interiores y exteriores.<br>
+        <img src="maceta.jpg" alt="Maceta Green Life" class="catalogo-img">
       </li>
     </ul>
   </section>
@@ -84,14 +82,23 @@
   </section>
 
   <section id="equipo">
-    <h2>Miembros del Equipo</h2>
+    <h2>Miembros del equipo</h2>
     <ul>
       <li>Laurenth Naranjo</li>
-      <li>Diego</li>
-      <li>Dilan</li>
+      <li>Diego Garcia Davila</li>
+      <li>Dilan Ortiz Martinez</li>
       <li>Linda Florián</li>
       <li>Yenderson Ballestero</li>
     </ul>
+  </section>
+
+  <section id="proceso" class="video-section">
+    <h2>¿Cómo se hacen nuestras macetas?</h2>
+    <p>Descubre el proceso detrás de nuestras macetas ecológicas en este video:</p>
+    <video controls>
+      <source src="Video green life.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
   </section>
 
   <section id="contacto">
@@ -100,6 +107,10 @@
     <p>Email: <a href="mailto:contacto@greenlife.com">contacto@greenlife.com</a></p>
     <p>WhatsApp: <a href="https://wa.me/573233375847" target="_blank">+57 323 337 5847</a></p>
     <p>Instagram: <a href="https://instagram.com/greenlife_plantas" target="_blank">@greenlife_plantas</a></p>
+    <div class="qr">
+      <p>Escanea nuestro código QR:</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://yenderson17.github.io" alt="QR de Green Life">
+    </div>
   </section>
 
   <footer>
@@ -108,4 +119,5 @@
 
 </body>
 </html>
+
 
